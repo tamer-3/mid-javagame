@@ -1,6 +1,8 @@
 # mid-javagame
 Snake game by Rakhmanberdiev Tamerlan
 
+main code in snake folder -> src -> sample
+
 control on WASD
 
 Libraries:
