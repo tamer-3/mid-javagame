@@ -156,12 +156,10 @@ public class Main extends Application {
 
     private void drawSnake(GraphicsContext getcan) {
         getcan.setFill(Color.web("088f06"));
-        getcan.fillRoundRect(head.getX() * square, head.getY() * square,
-                square - 1, square - 1, 35, 35);
 
-        for (int i = 1; i < body.size(); i++) {
-            getcan.fillRoundRect(body.get(i).getX() * square, body.get(i).getY() * square, square - 1,
-                    square - 1, 0, 0);
+        for (int i = 0; i < body.size(); i++) {
+            getcan.fillRoundRect(body.get(i).getX() * square, body.get(i).getY() * square, square,
+                    square, 0, 0);
         }
     }
 
