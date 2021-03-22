@@ -32,4 +32,4 @@ Point;
 ArrayList;
 List.
 
-![ScreenShot](C:\Games\screenshot1.jpg)
+![ScreenShot](https://github.com/tamer-3/mid-javagame/screenshot1.jpg)
